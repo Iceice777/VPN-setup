@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Implementing a Virtual 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Look up current IP address
-- install Proton Vpn
+- install Proton VPN
 - Use Proton VPN
 
 <h2>Deployment and Configuration Steps</h2>
@@ -42,7 +42,7 @@ Look up your current IP address using Whatismyipaddress.com.
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/142127371/420949783-5710f98f-093f-48cf-81f1-fef3efbdc038.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250310%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250310T142310Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=13311ee935f794144127add5e5ad37066922ce5d3be2c976ad65416ed9025aac&amp;X-Amz-SignedHeaders=host">
 </p>
 <p>
-Download Vpn Proton and use the quick VPN option to find a new Ip adddress
+Download VPN Proton and use the quick VPN option to find a new Ip adddress
 </p>
 <br />
 
