@@ -1,6 +1,6 @@
-<p align="center">
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/142127371/420718289-d11bd56c-18b6-4b34-ba95-46f2f92f7d2e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250310%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250310T001210Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=bdacc94f20d5c60357eebead9656f1e30be131df5c430829339c65311f40bc46&amp;X-Amz-SignedHeaders=host" width="250" height="250">
-</p>
+
+
+
 
 <h1>Implemeting a Virtual Private Network(Proton VPN)</h1>
 This tutorial outlines the implementation of on-premises Implementing a Virtual Private Network within Azure Virtual Machines.<br />
@@ -13,10 +13,10 @@ This tutorial outlines the implementation of on-premises Implementing a Virtual 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Goolge Chrome
 - Proton VPN
 - [Whatismyip.com](https://whatismyipaddress.com)
+- A Computer connected to wifi
 
 <h2>Operating Systems Used </h2>
 
@@ -31,23 +31,72 @@ This tutorial outlines the implementation of on-premises Implementing a Virtual 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/142127371/420949768-88d3b696-e542-48b3-9abc-bb5fa9f7d953.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250310%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250310T142303Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=f4e070ef82b38b9d2d7995446d264d82c48bb5735bfcd2b837029d878214da64&amp;X-Amz-SignedHeaders=host"">
-</p>
+
+<img width="1920" height="1080" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/1f8c868f-0f02-4e3f-96d4-098df2963f43" />
+
 <p>
-Look up your current IP address using Whatismyipaddress.com.
+Go to Google and look up your current IP address using Whatismyipaddress.com. Take note of what it says
 </p>
 <br />
 
 <p>
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/142127371/420949783-5710f98f-093f-48cf-81f1-fef3efbdc038.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250310%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250310T142310Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=13311ee935f794144127add5e5ad37066922ce5d3be2c976ad65416ed9025aac&amp;X-Amz-SignedHeaders=host">
-</p>
+<img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/5c3772d7-a26f-4d19-a646-24744514c673" />
 <p>
-Download VPN Proton and use the quick VPN option to find a new Ip adddress
+Download VPN Proton at https://protonvpn.com and click the button that says download and choose your system
 </p>
 <br />
 
 <p>
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/142127371/420949838-07323e83-d73e-4a6f-b2f6-3dbb780a95b4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250310%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250310T142319Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=3ea1385cedeb26cb47981bc444aea74b3ac3ff9642482428188ef5c671e34dd4&amp;X-Amz-SignedHeaders=host">
+<img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/5c3772d7-a26f-4d19-a646-24744514c673" />
+<p>
+Then click the ProtonVPN_4.42v.exe(your Version Might be different) file that is now in your downloads folder
+</p>
+
+<br />
+<p>
+<img width="366" height="192" alt="Screenshot (175)" src="https://github.com/user-attachments/assets/a7818263-2d81-4c46-8920-6a95e4ef0995" />
+
+<p>
+ A window like this should pop up and choose your language
+</p>
+<br />
+<p>
+<img width="597" height="450" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/275f7d78-2c55-42b2-8746-a3a1618a3c6d" />
+<p>
+Now select where you want to file it
+</p>
+<br />
+<img width="1916" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a3e8ef3-4dde-49da-bf7e-631904135072" /><p align="center">
+
+<p>
+Uncheck everything except for the box that says "Create Desktop Shortcut"
+</p>
+<br />
+<img width="597" height="450" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/275f7d78-2c55-42b2-8746-a3a1618a3c6d" />
+<p>
+Now select where you want to file it
+</p>
+<br />
+<br />
+<img width="1917" height="1080" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/27ab83d9-c4c8-4e1f-b8d0-01c7d5212f96" />
+<p>
+Give it some time to download
+</p>
+<br />
+<img width="1923" height="1080" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/124a3b16-70bd-42d0-a650-a3d2885593bf" />
+
+<p>
+Now Create an account and sign in or Sign-in if you already have one
+</p>
+</p>
+<img width="1920" height="1080" alt="vpn connected" src="https://github.com/user-attachments/assets/46a6af3e-192f-4a0c-8c97-ae9609a8f327" />
+<p>
+Click the purple button that says quick connect and the it should say connect ed at the top once connected like the image above.
+</p>
+<br />
+<p>
+<img width="1920" height="1080" alt="Vpn final ip" src="https://github.com/user-attachments/assets/72586a44-0228-48c5-843c-c06f38157e70" />
+
 </p>
 https://whatismyipaddress.com to see what your new IP address is 
  
