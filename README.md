@@ -47,7 +47,7 @@ Download VPN Proton at https://protonvpn.com and click the button that says down
 <br />
 
 <p>
-<img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/5c3772d7-a26f-4d19-a646-24744514c673" />
+ <img width="315" height="94" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/d3537acf-8587-4e60-b3fd-4ffaf7a6a17f" />
 <p>
 Then click the ProtonVPN_4.42v.exe(your Version Might be different) file that is now in your downloads folder
 </p>
@@ -57,7 +57,7 @@ Then click the ProtonVPN_4.42v.exe(your Version Might be different) file that is
 <img width="366" height="192" alt="Screenshot (175)" src="https://github.com/user-attachments/assets/a7818263-2d81-4c46-8920-6a95e4ef0995" />
 
 <p>
- A window like this should pop up and choose your language
+ A window like this should pop up, and choose your language
 </p>
 <br />
 <p>
